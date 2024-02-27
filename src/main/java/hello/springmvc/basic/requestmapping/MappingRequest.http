@@ -1,0 +1,8 @@
+### GET request with a header
+GET http://localhost:8080/hello-basic
+
+### GET request with a header
+GET http://localhost:8080/mapping/DAEHUN
+
+### GET request with a header
+GET http://localhost:8080/mapping/users/DAEHUN/orders/ORDER
