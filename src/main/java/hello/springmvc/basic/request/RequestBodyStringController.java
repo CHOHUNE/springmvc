@@ -24,7 +24,7 @@ public class RequestBodyStringController {
     public void requestBodyString(HttpServletRequest request, HttpServletResponse response)throws Exception {
         ServletInputStream inputStream = request.getInputStream();
         String messageBody = StreamUtils.copyToString(inputStream, StandardCharsets.UTF_8);
-        // 스트림은 바이트 코드 이기 때문에 어떤 문자형식으로 받을지를 지정 해줘야 한다.
+        // 스트림은 바이트 코드 1이기 때문에 어떤 문자형식으로 받을지를 지정 해줘야 한다.
 
         log.info("messageBody={}", messageBody);
 
