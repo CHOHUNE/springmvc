@@ -1,4 +1,9 @@
 ### GET request with a header
 GET http://localhost:8080/headers
 
+###
+POST http://localhost:8080/request-body-string-v1
+Content-Type: text/plain
+
+hello
 
